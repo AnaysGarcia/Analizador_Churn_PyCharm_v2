@@ -1,0 +1,9 @@
+# Configuración segura por defecto para uso local en el propio ordenador.
+[server]
+address = "127.0.0.1"
+maxUploadSize = 20
+enableCORS = true
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
